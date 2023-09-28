@@ -37,7 +37,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______,  CTL_T(KC_TAB),KC_Q,       KC_W,       KC_E,       KC_R,     KC_T,      KC_Y,     KC_U,     KC_I,     KC_O,     KC_P,     KC_LBRC,  KC_RBRC,  KC_BSLS,            KC_PGDN,
         _______,  GUI_T(KC_ESC),KC_A,       KC_S,       KC_D,       KC_F,     KC_G,      KC_H,     KC_J,     KC_K,     KC_L,     KC_SCLN,  KC_QUOT,            KC_ENT,             KC_HOME,
         _______,  KC_LSFT,      CTL_T(KC_Z),ALT_T(KC_X),GUI_T(KC_C),KC_V,     KC_B,      KC_B,     KC_N,     KC_M,     KC_COMM,  KC_DOT,   KC_SLSH,            KC_RSFT,  KC_UP,
-        _______,  KC_LCTL,      KC_LALT,                KC_LGUI, LT(SYMS,KC_SPC), KC_TAB,                KC_BSPC,            LT(SYMS,KC_ENT),                  KC_LEFT,  KC_DOWN,  KC_RGHT
+        _______,  KC_LCTL,      KC_LALT,                KC_LGUI, LT(SYMS,KC_SPC), KC_TAB,                LT(SYMS,KC_BSPC),            LT(SYMS,KC_ENT),         KC_LEFT,  KC_DOWN,  KC_RGHT
     ),
 
     [EMTY] = LAYOUT_ansi_89(
